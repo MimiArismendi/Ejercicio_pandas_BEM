@@ -1,0 +1,132 @@
+/*Colores*/
+/*Tipografia*/
+/*Espacios*/
+body {
+  background-color: #b4d3b2; }
+
+header {
+  background-color: #8d1f1e;
+  height: 5%;
+  font-family: "Lobster", cursive;
+  text-align: right;
+  font-size: 25px; }
+  header a {
+    color: #f5eac9;
+    text-decoration: none;
+    padding: 2%; }
+  header footer, header p {
+    text-align: center;
+    color: #f5eac9; }
+
+.blockImg {
+  margin-left: 10%; }
+  .blockImg__elemento {
+    display: inline;
+    padding: 2%; }
+    .blockImg__elemento--imagen {
+      height: 200px;
+      width: 200px;
+      border-radius: 30%;
+      border: 10px solid #91ba8f; }
+
+.contBotones {
+  text-align: center;
+  display: inline-block; }
+  .contBotones__btn {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: #91ba8f;
+    display: inline-block;
+    padding-top: 2%;
+    margin-left: 2%; }
+    .contBotones__btn--btnTexto {
+      font-family: "Lobster", cursive;
+      font-size: 15px;
+      color: #f5eac9; }
+  .contBotones__btn:hover {
+    background-color: #8d1f1e; }
+
+.contenedorTxt .contenedor__textos {
+  font-family: "Josefin Sans", sans-serif;
+  color: #91ba8f;
+  font-size: 1.4vw;
+  padding: 5%;
+  background-color: #c13d20;
+  border: solid 3px #f5eac9;
+  border-radius: 2%;
+  margin-bottom: 5%; }
+
+footer {
+  background-color: #8d1f1e;
+  height: 5%;
+  font-family: "Lobster", cursive;
+  text-align: right;
+  font-size: 25px; }
+  footer a {
+    color: #f5eac9;
+    text-decoration: none;
+    padding: 2%; }
+  footer footer, footer p {
+    text-align: center;
+    color: #f5eac9; }
+
+/*Grid*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto; }
+
+.row:before, .row:after {
+  content: " ";
+  display: table; }
+.row:after {
+  clear: both; }
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

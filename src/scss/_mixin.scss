@@ -1,0 +1,67 @@
+@mixin headerAndFooter {
+	background-color: $colorVino;
+	height: $mediano;
+	font-family: $fuenteTitulos;
+	text-align: $alinearDer;
+	font-size: $tamanoTitulo;
+	a {
+		color: $colorRosa;
+		text-decoration: none;
+		padding: $chico;
+	}
+	footer,p{
+		text-align:$centrar;
+		color: $colorRosa;
+	}
+}
+
+@mixin textos{
+	.contenedor{	
+	&__textos{
+	    font-family:$fuenteTextos;
+		color: $colorVerdoso;
+		font-size:1.4vw;
+		padding: $mediano;
+		background-color:$colorNaranja;
+		border: solid 3px $colorRosa;
+		border-radius: 2%;
+		margin-bottom: $mediano;
+	   }
+	}
+}
+
+@mixin botones {
+	text-align: $centrar;
+	display: inline-block;
+	&__btn {
+		width: 95px;
+		height: 95px;
+		border-radius: 50%;
+		background-color: $colorVerdoso;
+		display: inline-block;
+		padding-top: $chico;	
+		margin-left: $chico;
+		&--btnTexto {
+			font-family: $fuenteTitulos;
+			font-size: $tamanoTexto;
+			color: $colorRosa;
+		}
+	}
+	&__btn:hover {
+		background-color: $colorVino;
+ }
+}
+
+@mixin imagenes {
+	margin-left: $grande;
+	&__elemento {
+		display: inline;
+		padding: $chico;
+		&--imagen {
+			height: 200px;
+			width: 200px;
+			border-radius: 30%;
+			border: 10px solid $colorVerdoso;
+		}
+	}
+}
